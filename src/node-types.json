@@ -77,6 +77,25 @@
     "fields": {}
   },
   {
+    "type": "function",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "filter_argument",
+          "named": true
+        },
+        {
+          "type": "variable_name",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
     "type": "operator",
     "named": true,
     "fields": {}
@@ -112,6 +131,10 @@
         },
         {
           "type": "filter",
+          "named": true
+        },
+        {
+          "type": "function",
           "named": true
         },
         {
@@ -179,6 +202,7 @@
   {
     "type": "template",
     "named": true,
+    "root": true,
     "fields": {},
     "children": {
       "multiple": true,
@@ -186,6 +210,10 @@
       "types": [
         {
           "type": "content",
+          "named": true
+        },
+        {
+          "type": "function",
           "named": true
         },
         {
@@ -300,6 +328,14 @@
   },
   {
     "type": "'",
+    "named": false
+  },
+  {
+    "type": "(",
+    "named": false
+  },
+  {
+    "type": ")",
     "named": false
   },
   {
