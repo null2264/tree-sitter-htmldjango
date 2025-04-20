@@ -225,6 +225,10 @@
           "named": true
         },
         {
+          "type": "string",
+          "named": true
+        },
+        {
           "type": "unpaired_comment",
           "named": true
         },
