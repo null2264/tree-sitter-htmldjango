@@ -2,31 +2,35 @@
   "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
   "grammars": [
     {
-      "name": "htmldjango",
-      "camelcase": "htmlDjango",
-      "title": "Htmldjango",
-      "scope": "source.htmldjango",
+      "name": "htmljinja",
+      "camelcase": "htmlJinja",
+      "title": "Htmljinja",
+      "scope": "source.htmljinja",
       "file-types": [
         "html"
       ],
       "highlights": "queries/highlights.scm",
       "injections": "queries/injections.scm",
-      "injection-regex": "^htmldjango$",
-      "class-name": "TreeSitterHtmldjango"
+      "injection-regex": "^htmljinja$",
+      "class-name": "TreeSitterHtmljinja"
     }
   ],
   "metadata": {
     "version": "1.0.0",
     "license": "MIT",
-    "description": "A tree-sitter grammar for the Django template language",
+    "description": "A tree-sitter grammar for the Django template language (That modified slightly to work better with Jinja2)",
     "authors": [
       {
         "name": "William Vandervalk",
         "url": "https://williamvandervalk.com/"
+      },
+      {
+        "name": "Ahmad Ansori Palembani",
+        "url": "https://aap.my.id/"
       }
     ],
     "links": {
-      "repository": "https://github.com/interdependence/tree-sitter-htmldjango"
+      "repository": "https://github.com/null2264/tree-sitter-htmldjango"
     }
   },
   "bindings": {
