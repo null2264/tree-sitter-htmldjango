@@ -9,8 +9,8 @@
       "file-types": [
         "html"
       ],
-      "highlights": "queries/highlights.scm",
-      "injections": "queries/injections.scm",
+      "highlights": "queries/htmljinja/highlights.scm",
+      "injections": "queries/htmljinja/injections.scm",
       "injection-regex": "^htmljinja$",
       "class-name": "TreeSitterHtmljinja"
     }
