@@ -1,4 +1,4 @@
-module github.com/interdependence/tree-sitter-htmldjango
+module github.com/null2264/tree-sitter-htmldjango
 
 go 1.22
 

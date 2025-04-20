@@ -3,10 +3,10 @@ requires = ["setuptools>=42", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "tree-sitter-htmldjango"
-description = "A tree-sitter grammar for the Django template language"
+name = "tree-sitter-htmljinja"
+description = "A tree-sitter grammar for the Django template language (Slightly modified to work better with Jinja2)"
 version = "1.0.0"
-keywords = ["incremental", "parsing", "tree-sitter", "htmldjango"]
+keywords = ["incremental", "parsing", "tree-sitter", "htmljinja"]
 classifiers = [
   "Intended Audience :: Developers",
   "Topic :: Software Development :: Compilers",
@@ -19,7 +19,7 @@ license.text = "MIT"
 readme = "README.md"
 
 [project.urls]
-Homepage = "https://github.com/interdependence/tree-sitter-htmldjango"
+Homepage = "https://github.com/null2264/tree-sitter-htmldjango"
 
 [project.optional-dependencies]
 core = ["tree-sitter~=0.24"]

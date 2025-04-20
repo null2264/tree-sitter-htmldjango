@@ -1,8 +1,8 @@
 {
-  "name": "tree-sitter-htmldjango",
+  "name": "tree-sitter-htmljinja",
   "version": "1.0.0",
-  "description": "A tree-sitter grammar for the Django template language",
-  "repository": "https://github.com/interdependence/tree-sitter-htmldjango",
+  "description": "A tree-sitter grammar for the Django template language (Slightly modified to work better with Jinja2)",
+  "repository": "https://github.com/null2264/tree-sitter-htmldjango",
   "license": "MIT",
   "author": {
     "name": "William Vandervalk",
@@ -14,7 +14,7 @@
     "incremental",
     "parsing",
     "tree-sitter",
-    "htmldjango"
+    "htmljinja"
   ],
   "files": [
     "grammar.js",
@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "prebuildify": "^6.0.1",
-    "tree-sitter-cli": "^0.25.1"
+    "tree-sitter-cli": "^0.25.3"
   },
   "peerDependencies": {
     "tree-sitter": "^0.21.1"

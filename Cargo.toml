@@ -1,13 +1,13 @@
 [package]
-name = "tree-sitter-htmldjango"
-description = "A tree-sitter grammar for the Django template language"
+name = "tree-sitter-htmljinja"
+description = "A tree-sitter grammar for the Django template language (Slightly modified to work better with Jinja2)"
 version = "1.0.0"
 authors = ["William Vandervalk"]
 license = "MIT"
 readme = "README.md"
-keywords = ["incremental", "parsing", "tree-sitter", "htmldjango"]
+keywords = ["incremental", "parsing", "tree-sitter", "htmljinja"]
 categories = ["parser-implementations", "parsing", "text-editors"]
-repository = "https://github.com/interdependence/tree-sitter-htmldjango"
+repository = "https://github.com/null2264/tree-sitter-htmldjango"
 edition = "2021"
 autoexamples = false
 
@@ -31,4 +31,4 @@ tree-sitter-language = "0.1"
 cc = "1.2"
 
 [dev-dependencies]
-tree-sitter = "0.25.1"
+tree-sitter = "0.25.3"

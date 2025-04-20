@@ -1,4 +1,4 @@
-"""A tree-sitter grammar for the Django template language"""
+"""A tree-sitter grammar for the Django template language (Slightly modified to work better with Jinja2)"""
 
 from importlib.resources import files as _files
 
